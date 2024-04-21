@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+    <link
+    rel="stylesheet"
+    href="./admin/src/css/login.css"
+  />
+    <link
+    rel="stylesheet"
+    href="./admin/src/css/loading.css"
+  />
+ 
+
+</head>
+<body>
+    <style>
+    .main .wrapper .form .input-control {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 1.25rem;
+        flex-direction: column;
+    }
+    .main .wrapper .form .input-control .lb-error{
+        width: 100%;
+    }
+    </style>
+    <div class="" id="loading"></div>
+    <main class="main">
+        <div class="container">
+            <section class="wrapper">
+                <div class="heading">
+                    <h1 class="text text-large">Đăng Kí</h1>
+                    <!-- <p class="text text-normal"><span><a href="#" class="text text-links">Create an account</a></span>
+                    </p> -->
+                </div>
+            
+                <form  class="form register-form">
+                    <div class="input-control">
+                        <label for="user_nm" class="input-label" hidden></label>
+                        <input type="text" maxlength="50" name="user_nm" id="user_nm" class="input-field" placeholder="Họ Tên">
+                    </div>
+                    <div class="input-control">
+                        <label for="address" class="input-label" hidden>Địa chỉ</label>
+                        <textarea id="address" maxlength="50" class="input-field" name="address" placeholder="Địa chỉ" rows="2" cols="50"></textarea>
+                        <!-- <input type="email" name="address" id="address" class="input-field" placeholder="Địa chỉ"> -->
+                    </div>
+                    <div class="input-control">
+                        <label for="email" class="input-label" hidden>Số điện thoại</label>
+                        <input type="tel" maxlength="11" name="tel" id="tel" class="input-field" placeholder="Số điện thoại">
+                    </div>
+                    <div class="input-control">
+                        <label for="email" class="input-label" hidden>Email</label>
+                        <input type="email" name="email" id="email" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="input-control">
+                        <label for="password" class="input-label" hidden>Mật khẩu</label>
+                        <input type="password" name="password" id="password" class="input-field" placeholder="Mật khẩu">
+                    </div>
+                    <div class="input-control input-login">
+                        <button class="btn-register" type="button" href="./dang-nhap.html" role="0">
+                            <input type="button"  class="input-submit " value="Đăng kí">
+                        </button>
+                     
+                    </div>
+                </form>
+              
+            </section>
+        </div>
+        </div>
+
+    </main>
+    <script src="./admin/assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="./admin/src/js/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cây phú quý thủy canh</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./sidebar.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./sidebar_card.js"></script>
+    <script src="https://kit.fontawesome.com/38cd021484.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hotline"><i class="fa-solid fa-phone"></i> Hotline: **********</div>
+            <div class="add-top">
+                <ul>
+                    <li id="taotaikhoan" style="padding-right: 10px;"><a href="#">TẠO TÀI KHOẢN</a></li>
+                    <li class="dndk"></li>
+                    <li id="dangnhap" style="padding-left: 10px;"><a href="#">ĐĂNG NHẬP</a></li>
+                    <li style="padding-left: 10px;"><a href="#"><button class="cart-shopping"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</button></a></li>
+                </ul>
+                <div class="taotaikhoan">
+                    <div class="taotaikhoan-content">
+                        <h2>TẠO TÀI KHOẢN <span id="taotaikhoan-close">X Đóng</span></h2>
+                        <form action="">
+                            <div><input type="text" placeholder="Email/Số điện thoại"></div>
+                            <div><input type="text" placeholder="Mật khẩu"></div>
+                            <div><input type="text" placeholder="Nhập lại mật khẩu"></div>
+                            <button type="submit">ĐĂNG KÝ</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dangnhap">
+                    <div class="dangnhap-content">
+                        <h2>ĐĂNG NHẬP <span id="dangnhap-close">X Đóng</span></h2>
+                        <form action="">
+                            <div><input type="text" placeholder="Email/Số điện thoại"></div>
+                            <div><input type="text" placeholder="Mật khẩu"></div>
+                            <button type="submit">ĐĂNG NHẬP</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href=""><img style="width: 150px" src="../Ảnh chụp màn hình 2024-04-06 143410.png" alt=""></a></li>
+                <li>
+                    <input type="text" placeholder="Bạn tìm gì..." >
+                    <!--<select name="" id="">
+                        <option value="#">--Chọn địa chỉ</option>
+                        <option valua="#"></option>-->
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href="../index.html"><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+                    <li><a href="">Cây cảnh nội thất</a></li>
+                    <li><a href="">Cây cảnh văn phòng</a></li>
+                    <li><a href="./index(tong).html">Cây cảnh để bàn<!--<i style="margin-left: 6px;" class="fa-solid fa-sort-down"></i>--></a>
+                        <!--<div class="submenu">
+                            <ul>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                                <li><a href="">Phụ kiện</li>
+                            </ul>
+                        </div>-->
+                    </li>
+                    <li><a href="">Cây cảnh thủy canh</a></li>
+                    <li><a href="">Chậu trồng cây</a></li>
+                    <li><a href="">Cây nghệ thuật</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<!-- -----------------------------------------chinh---------- -->
+    <main id="main" class>
+        <div class="shop-conteiner">
+            <div class="content-row">
+                <div id="product-sidebar" class="col large-3">
+                    <aside id="text-2" class="widget-text">
+                        <span class="widget-text-title">Thông tin cửa hàng</span>
+                        <div class="is-divider"></div>
+                        <div class="textwidget">
+                            <ul>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 1:</strong>
+                                        "100 Trung Kính, Cầu Giấy, Hà Nội"
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 2:</strong>
+                                        "625 Hoàng Hoa Thám, Tây Hồ, Hà Nội"
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 3:</strong>
+                                        "610 Hoàng Hoa Thám, Tây Hồ, Hà Nộ"
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 4:</strong>
+                                        "C8 đường Lê Văn Tám, chợ cây cảnh Vạn Phúc, Hà Đông"
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 5:</strong>
+                                        "240 Nguyễn Chánh, Cầu Giấy, Hà Nội"
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-large">
+                    <div class="product-main">
+                        <div class="product-main-img">
+                            <img class="tong" src="./trees/cây-phú-quý-247x296.jpg" alt="">
+                        </div>
+                        <div class="product-main-info">
+                            <nav class="product-main-info-item">
+                                <a href="../index.html">Trang chủ</a>
+                                <span class="divider">/</span>
+                                <a href="">Cây thủy canh </a>
+                            </nav>
+                            <h1 class="product-title">Cây phú quý thủy canh</h1>
+                            <div class="price-wrapper">
+                                <p class="price-wrapper-amount">
+                                    <span class="amount">
+                                        <bdi>
+                                            300.000&nbsp;
+                                            <span class="price-wrapper-currency">₫</span>
+                                        </bdi>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="product-main-info-short">
+                                <p style="text-align: justify;">
+                                    Cây phú quý mang lại sự giàu sang, phú quý cho chính chủ nhân sở hữu nó. Với sự kết hợp hài hòa giữa màu xanh lá với viền đỏ sẽ rất thích hợp cho trang trí nội thất sang trọng với ý nghĩa phong thủy độc đáo mang tên “Phú Quý”                                </p>
+                            </div>
+                            <a href="#" class="product-main-info-buy">
+                                <strong>THÊM VÀO GIỎ HÀNG</strong>
+                                <span>Gọi điện xác nhận và giao hàng tận nơi</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-section">
+                        <h2 class="product-section-title">Sản phẩm tương tự</h2>
+                        <div class="product-section-row">
+                            <div class="product-gallery-one-content-product">
+                                <a href="./index2.html" class="product-gallery-one-content-product-item">
+                                        <img class="thub" src="trees/cay_gua_nghe_thuat_hinh_binh_hoa-247x296.jpg" alt="">
+                                        <div class="product-gallery-one-content-product-item-text">
+                                            <li>Cây gừa NT hình bình hoa</li>
+                                            <p>250.000<sup>đ</sup></p>
+                                        </div>
+                                </a>
+                                <a href="./index3.html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="trees/cây-hồng-môn-247x296.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây hồng môn thủy canh</li>
+                                        <p>150.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index4.html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="trees/cay_gua_nghe_thuat_hinh_thien_nga-247x296.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây gừa NT hình thiên nga</li>
+                                        <p>170.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index5.html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="trees/cây-lan-chi-247x296.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây Lan chi thủy canh</li>
+                                        <p>320.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index6.html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="trees/cây-ngọc-trai-247x296.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây ngọc trai</li>
+                                        <p>400.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index7.html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./trees/cay_gua_nghe_thuat_hinh_traitim-247x296.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây gừa NT hình trái tim</li>
+                                        <p>140.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index8.html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./trees/cây-ngân-hậu-247x296.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây ngân hậu thủy canh</li>
+                                        <p>100.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index1.html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./trees/cây-dứa-đài-loan-247x296.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây dứa Đài Loan thủy canh</li>
+                                        <p>120.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

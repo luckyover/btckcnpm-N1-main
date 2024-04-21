@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plant shop</title>
+    <link rel="stylesheet" href="./styles.css" >
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./sidebar.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./sidebar_card.js"></script>
+    <script src="https://kit.fontawesome.com/38cd021484.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hotline"><i class="fa-solid fa-phone"></i> Hotline: **********</div>
+            <div class="add-top">
+                <ul>
+                    <li id="taotaikhoan" style="padding-right: 10px;"><a href="#">TẠO TÀI KHOẢN</a></li>
+                    <li class="dndk"></li>
+                    <li id="dangnhap" style="padding-left: 10px;"><a href="#">ĐĂNG NHẬP</a></li>
+                    <li style="padding-left: 10px;"><a href="#"><button class="cart-shopping"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</button></a></li>
+                </ul>
+                <div class="taotaikhoan">
+                    <div class="taotaikhoan-content">
+                        <h2>TẠO TÀI KHOẢN <span id="taotaikhoan-close">X Đóng</span></h2>
+                        <form action="">
+                            <div><input type="text" placeholder="Email/Số điện thoại"></div>
+                            <div><input type="text" placeholder="Mật khẩu"></div>
+                            <div><input type="text" placeholder="Nhập lại mật khẩu"></div>
+                            <button type="submit">ĐĂNG KÝ</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dangnhap">
+                    <div class="dangnhap-content">
+                        <h2>ĐĂNG NHẬP <span id="dangnhap-close">X Đóng</span></h2>
+                        <form action="">
+                            <div><input type="text" placeholder="Email/Số điện thoại"></div>
+                            <div><input type="text" placeholder="Mật khẩu"></div>
+                            <button type="submit">ĐĂNG NHẬP</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li class="logo"><a href=""><img style="width: 150px" src="./Ảnh chụp màn hình 2024-04-06 143410.png" alt=""></a></li>
+                <li class="search">
+                    <input class="search-input" type="text" placeholder="Bạn tìm gì..." > 
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <div class="search-list">
+                        <ul class="search-list-item">
+                            <a href="#noithat"><li class="list-item">Cây cảnh nội thất</li></a>
+                            <a href="#vanphong"><li class="list-item">Cây cảnh văn phòng</li></a>
+                            <a href="#deban"><li class="list-item">Cây cảnh để bàn</li></a>
+                            <a href="#giamgia"><li class="list-item">Giảm giá chào hè</li></a>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <a href="./index.html"><li><i class="fa-solid fa-house"></i>Trang chủ</li></a>
+                    <a href="./Huy/index(sp4).html"><li>Bán chạy nhất</li></a>
+                    <a href="./Luong/index3.html"><li>Mới nhất</li></a>
+                    <a href="./index(sp21).html"><li>Tham khảo thông tin cây</li></a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------------SLider-------------------------- -->
+  <div style="padding-top:30px;"></div>  
+<div class="main">   
+    <section >
+        <div class="cuocsongxanh"> 
+            <h3 class="cuocsongxanh2">Có nhu cầu mua cây – Chọn ngay cây cảnh , lựa ngay của shop chúng tôi</h3>
+                <ul type="cirlce" class="abc" style="padding-left:20px;">
+                        <li>
+                        Cây cảnh với màu xanh mát tự nhiên sẽ mang lại cảm giác thanh mát, tươi mới giúp giảm nhiệt, giảm sự ngột ngạt cho văn phòng và đặc biệt là giúp tạo nên độ ẩm phù 
+                        </li>
+                        <p>
+                        hợp cho không gian. 
+                        </p>
+                        <li>
+                            Có những loại cây cảnh có tác dụng giảm phiền do tiếng ồn trong văn phòng giúp cho nhân viên tập trung làm việc hiệu quả hơn.
+                        </li>
+                </ul>
+                
+            <h3>Cây cảnh là gì</h3>
+                <ul type="circle-black" class="abc" style="padding-left:20px;">
+                    <li>
+                        Cây cảnh (hoặc cây kiểng) là một số loại thực vật được chăm sóc, gieo trồng và tạo dáng công phu, thường dùng làm vật trang trí hay một chi tiết trong thuật phong thủy.
+                    </li>
+                    <li>
+                        Cây cảnh được bài trí có khi nhằm thể hiện một ý tưởng của người trồng qua cách xếp đặt mà vẫn giữ được vẻ tự nhiên của lá. Thân cây được uốn theo một hình dáng 
+                    </li>
+                    <p>
+                        nào đó, còn gọi là thế, kết hợp với chậu, đất hay nước là môi trường dinh dưỡng cho thực vật ấy.
+                    </p>
+                    <li>   
+                        Bên cạnh mục tiêu làm cảnh (vì lẽ này cây cảnh đã được tuyên lên thành nghệ thuật như ở Nhật Bản có bon-sai) cây cảnh còn là một loại hàng hóa được kinh doanh 
+                    </li>
+                    <p>
+                        không theo một khung giá cố định nào mà phần nhiều tùy hứng của người bán và người mua hoặc tùy tâm của người bán.
+                    </p>
+                </ul>
+                
+        
+            <h3>Lợi ích của cây nội thất là gì?</h3>
+                <ul tyle="circle" class="abc" style="padding-left:20px;">
+                    <li>
+                        Hiệu suất công việc của nhân viên sẽ tăng đến 15%
+                    </li>
+                    <li>
+                        Phát huy khả năng sáng tạo.
+                    </li>    
+                    <li>
+                        Giảm nghỉ bệnh và vắng mặt.
+                    </li> 
+                    <li>
+                        Bảo vệ nội thất và mang lại không khí trong lành.
+                    </li>  
+                    <li> 
+                        Cây xanh nội thất giúp làm giảm tiếng ồn văn phòng.
+                    </li>
+                </ul>
+                
+    
+            <h3>Lợi ích của cây văn phòng là gì?</h3>
+                <ul tyle="circle" class="abc" style="padding-left:20px;">
+                    <li>
+                        Thanh lọc và tăng chất lượng không khí trong văn phòng.
+                    </li> 
+                    <li>
+                        Tạo lên không gian làm việc xanh – phong cách Eco trong thiết kế văn phòng.
+                    </li>
+                    <li>
+                        Tăng tính thẩm mỹ cho không gian làm việc.
+                    </li>
+                    <li>
+                        Giúp thư giãn tinh thần giảm căng thẳng mệt mỏi.
+                    </li>
+                </ul>
+            <h3>Lợi ích của cây để bàn là gì?</h3>
+                <ul tyle="circle" class="abc" style="padding-left:20px;">
+                    <li>
+                        Cây để bàn tạo không gian xanh và thanh lọc không khí
+                    </li>
+                    <li>
+                        Cây xanh để bàn cũng có thể hấp thụ các khí CO2, phân tử kim loại nặng và giữ chúng bên trong thân. Nhả ra khí O2 bổ sung độ ẩm tạo môi trường trong lành, thân 
+                    </li>
+                    <p>
+                        thiện. Bạn sẽ luôn cảm thấy thoải mái và dễ chịu trong suốt 8 giờ làm việc căng thẳng.
+                    </p>
+                </ul>
+            <h3>Lợi ích của cây cảnh thủy canh là gì ?</h3>
+                <ul tyle="circle" class="abc" style="padding-left:20px;">
+                    <li>
+                        Rau thủy canh có ưu điểm lớn nhất đó là "sạch", do rau được trồng trong môi trường nước nên không tiếp xúc với đất cát, ít bị ảnh hưởng bởi các yếu tố môi trường 
+                    </li>
+                    <p>
+                        bên ngoài. Từ đó giúp rau sạch hơn, không mất quá nhiều thời gian ngâm rửa trước khi sử dụng hay thậm chí có thể ăn ngay sau khi thu hoạch.
+                    </p>    
+                    <li>
+                        Rau thủy canh được đánh giá là loại rau tốt cho sức khỏe con người hơn các loại rau được canh tác theo phương pháp truyền thống. 
+                    </li>
+                </ul>
+            <h3>Lợi ích của cây nghệ thuật là gì ?</h3>
+                <ul tyle="circle" class="abc" style="padding-left:20px;">
+                    <li>Tạo không gian sống thú vị.</li>
+                    <li>Cải thiện chất lượng không khí.</li>
+                    <li>Tạo cảm giác thư giãn.</li>
+                    <li>Tăng sự sáng tạo.</li>
+                    <li>Giảm tiếng ồn.</li>
+                    <li>Tăng khả năng tập trung và hiệu suất làm việc.</li>
+                </ul>
+        </div>
+        <div class="border1"></div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid_row">
+                    <div class="grid_column-2-4" >
+                        <h3 class="footer_heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer_list">
+                            <li class="footer-item" style="padding-left:30px;" >
+                                <a href="" class="footer-item_link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item" style="padding-left:30px;" >
+                                <a href="" class="footer-item_link">F8-Shop Mall</a>
+                            </li>
+                                
+                            <li class="footer-item" style="padding-left:30px;">
+                                <a href="" class="footer-item_link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading">Giới thiệu</h3>
+                        <ul class="footer_list">
+                            <li class="footer-item" >
+                                <a href="" class="footer-item_link">Thời gian làm việc</a>
+                            </li>
+                            <li class="footer-item" style="padding-left:14px;"> 
+                                <a href="" class="footer-item_link">Tuyển dụng</a>
+                             </li>
+                             <li class="footer-item" style="padding-left:15px;">
+                                <a href="" class="footer-item_link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading">Danh mục</h3>
+                        <ul class="footer_list">
+                            <li class="footer-item">
+                                <a href="#noithat" class="footer-item_link">Cây cảnh nội thất</a>
+                            </li>
+                            <li class="footer-item"> 
+                                <a href="#vanphong" class="footer-item_link">Cây cảnh văn phòng</a>
+                             </li>
+                             <li class="footer-item">
+                                <a href="#deban" class="footer-item_link">Cây cảnh để bàn</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#giamgia" class="footer-item_link">Cây cảnh thủy canh</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#giamgia" class="footer-item_link">Cây nghệ thuật</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading">Theo dõi</h3>
+                        <ul class="footer_list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">
+                                    <i class="footer-item_icon fab fa-facebook"></i>Facebook</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">
+                                    <i class="footer-item_icon fab fa-instagram"></i>Instagram</a>
+                            </li>        
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">
+                                    <i class="footer-item_icon fab fa-linkedin"></i>Linkedin</a>
+                            </li>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer_download">
+                            <img src="./web bancay1_qrcode.png" alt="Download QR" class="footer_download-qr" style="width:80px;">
+                            <div class="footer_download-apps">
+                                <a href="" class="footer_download-app-link">
+                                    <img src="./googleplay.png" alt="Google play" class="footer_download-app-img" style="width:90px;">
+                                </a>
+                                <a href="" class="footer_download-app-link">
+                                    <img src="./appstore.png" alt="App store" class="footer_download-app-img" style="width:90px;">
+                                </a>
+                                
+
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="grid">
+                    <p class="footer_text">@ 2024 - Bản quyền thuộc về Công ty MyBTL</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>  

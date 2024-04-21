@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cây swiss cheese plant</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./sidebar.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./sidebar_card.js"></script>
+    <script src="https://kit.fontawesome.com/38cd021484.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hotline"><i class="fa-solid fa-phone"></i> Hotline: **********</div>
+            <div class="add-top">
+                <ul>
+                    <li id="taotaikhoan" style="padding-right: 10px;"><a href="#">TẠO TÀI KHOẢN</a></li>
+                    <li class="dndk"></li>
+                    <li id="dangnhap" style="padding-left: 10px;"><a href="#">ĐĂNG NHẬP</a></li>
+                    <li style="padding-left: 10px;"><a href="#"><button class="cart-shopping"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</button></a></li>
+                </ul>
+                <div class="taotaikhoan">
+                    <div class="taotaikhoan-content">
+                        <h2>TẠO TÀI KHOẢN <span id="taotaikhoan-close">X Đóng</span></h2>
+                        <form action="">
+                            <div><input type="text" placeholder="Email/Số điện thoại"></div>
+                            <div><input type="text" placeholder="Mật khẩu"></div>
+                            <div><input type="text" placeholder="Nhập lại mật khẩu"></div>
+                            <button type="submit">ĐĂNG KÝ</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dangnhap">
+                    <div class="dangnhap-content">
+                        <h2>ĐĂNG NHẬP <span id="dangnhap-close">X Đóng</span></h2>
+                        <form action="">
+                            <div><input type="text" placeholder="Email/Số điện thoại"></div>
+                            <div><input type="text" placeholder="Mật khẩu"></div>
+                            <button type="submit">ĐĂNG NHẬP</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li class="logo"><a href=""><img style="width: 150px" src="../Ảnh chụp màn hình 2024-04-06 143410.png" alt=""></a></li>
+                <li class="search">
+                    <input class="search-input" type="text" placeholder="Bạn tìm gì..." > 
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href="../index.html"><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+                    <li><a href="">Bán chạy nhất</a></li>
+                    <li><a href="">Mới nhất</a></li>
+                    <li><a href="">Tham khảo thông tin cây</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<!-- -----------------------------------------chinh---------- -->
+    <main id="main" class>
+        <div class="shop-conteiner">
+            <div class="content-row">
+                <div id="product-sidebar" class="col large-3">
+                    <aside id="text-2" class="widget-text">
+                        <span class="widget-text-title">Thông tin cửa hàng</span>
+                        <div class="is-divider"></div>
+                        <div class="textwidget">
+                            <ul>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 1:</strong>
+                                        "100 Trung Kính, Cầu Giấy, Hà Nội"
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 2:</strong>
+                                        "625 Hoàng Hoa Thám, Tây Hồ, Hà Nội"
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 3:</strong>
+                                        "610 Hoàng Hoa Thám, Tây Hồ, Hà Nộ"
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 4:</strong>
+                                        "C8 đường Lê Văn Tám, chợ cây cảnh Vạn Phúc, Hà Đông"
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-size: 95%;">
+                                        <strong>Shop cây cảnh 5:</strong>
+                                        "240 Nguyễn Chánh, Cầu Giấy, Hà Nội"
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-large">
+                    <div class="product-main">
+                        <div class="product-main-img">
+                            <img class="tong" src="./anh/anh7.jpg" alt="">
+                        </div>
+                        <div class="product-main-info">
+                            <nav class="product-main-info-item">
+                                <a href="../index.html">Trang chủ</a>
+                                <span class="divider">/</span>
+                                <a href="">Cây swiss cheese plant</a>
+                            </nav>
+                            <h1 class="product-title">Cây swiss cheese plant</h1>
+                            <div class="price-wrapper">
+                                <p class="price-wrapper-amount">
+                                    <span class="amount">
+                                        <bdi>
+                                            400.000&nbsp;
+                                            <span class="price-wrapper-currency">₫</span>
+                                        </bdi>
+                                    </span>
+                                </p>
+                            </div>
+                            <div style="height: 150px;" class="product-main-info-short">
+                                <p style="text-align: justify;">
+                                    Cây Swiss Cheese plant là cây cảnh nội thất. Rất được ưa chuộng hiện nay. Bởi vẻ đẹp mà nó mang lại cùng với sự phong thủy khi trưng cây. Những chiếc lá có những đường xẻ khác nhau tạo nên một kiệt tác nghệ thuật mà thiên nhiên ban tặng.
+                                </p>
+                            </div>
+                            <a href="#" class="product-main-info-buy">
+                                <strong>THÊM VÀO GIỎ HÀNG</strong>
+                                <span>Gọi điện xác nhận và giao hàng tận nơi</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-section">
+                        <h2 class="product-section-title">Sản phẩm tương tự</h2>
+                        <div class="product-section-row">
+                            <div class="product-gallery-one-content-product">
+                                <a href="./index(sp2).html" class="product-gallery-one-content-product-item">
+                                        <img class="thub" src="./anh/anh2.jpg" alt="">
+                                        <div class="product-gallery-one-content-product-item-text">
+                                            <li>Cây phát lộc</li>
+                                            <p>450.000<sup>đ</sup></p>
+                                        </div>
+                                </a>
+                                <a href="./index(sp1).html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./anh/anh1.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây phát tài</li>
+                                        <p>300.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index(sp3).html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./anh/anh9.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây thạch lan lithops</li>
+                                        <p>200.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index(sp9).html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./anh/anh8.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây ráy xẻ</li>
+                                        <p>400.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index(sp6).html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./anh/anh5.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây kim ngân</li>
+                                        <p>150.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index(sp4).html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./anh/anh3.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây Tài Lộc</li>
+                                        <p>35.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index(sp5).html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./anh/anh4.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây cỏ may mắn</li>
+                                        <p>150.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                                <a href="./index(sp7).html" class="product-gallery-one-content-product-item">
+                                    <img class="thub" src="./anh/anh6.jpg" alt="">
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li>Cây trầu bà lá rách</li>
+                                        <p>300.000<sup>đ</sup></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
